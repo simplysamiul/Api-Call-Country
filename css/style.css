@@ -1,0 +1,23 @@
+.page-header{
+    text-align: center;
+}
+/* Countries Containers */
+#countries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+/* individual country */
+.individual-country{
+    border: 3px solid rgb(13, 13, 65);
+    border-radius:10px;
+    background-color: azure;
+    margin: 20px;
+    padding: 10px;text-align: center;
+}
+button{
+    padding:7px 15px;
+}
+.each-country{
+    text-align: center;
+}
